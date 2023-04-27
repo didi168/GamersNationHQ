@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="theme-color" content="#FFA500">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/signup.css">
+  <script src="/js/signup.js"></script>
+  <title>Join Gamers Nation HQ</title>
+</head>
+<body>
+ <header class="head">
+  <img src="/img/logo png.png" id="icon"> 
+    <h1>Gamers Nation HQ</h1>
+    <nav>
+      <ul>
+       <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About US</a></li>
+        <li><a href="Tournaments.html">Tournaments</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <button><a href="login.html">Log In</a></button>
+    <div class="men" id="men" onclick="openMenu()"> 
+      <div class="menu"></div>
+      <div class="menu"></div>
+      <div class="menu"></div>
+  </div>
+</header>
+
+<div class="navMenu">
+<p class="cancel" onclick="closeMenu()">&times;</p>
+<h1>Gamers Nation HQ</h1>
+<nav>
+<ul>
+ <li> <a href="index.html">Home</li></a>
+  <li><a href="aboutUs.html">About US</a></li>
+  <li> <a href="Tournaments.html">Tournaments</a></li>
+  <li><a href="ContactUs.html">Contact Us</a></li>
+</ul>
+<button><a href="login.html">Log In</a></button>
+<button><a href="signup.html">Sign Up</a></button>
+</nav>
+</div>
+<div class="cover" onclick="closeMenu()"></div>
+
+<div class="firstDiv">
+     <!-- <div class="svg1"></div>
+     <div class="svg2"></div>
+     <div class="svg3"></div>
+     <div class="svg4"></div>
+     <div class="svg5"></div>
+     <div class="svg6"></div>
+     <div class="svg7"></div> -->
+
+     <div class="loginDiv">
+      <img src="img/Apex-Legends-PNG-Free-Download.png">
+         <form action=""  method="post">
+          <h1  >  Create an Account </h1>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="User name" required>
+        <input type="tel" placeholder="Phone Number"required>
+        <input type="password" placeholder="Password" id="password" required>
+        <input type="password" placeholder="Confirm Password" id="cPassword" required>
+        <br><span id="error"></span></br>
+        <button type="text" value="SignUp" >SignUp</button>
+      </form>
+      <img src="img/pngaaa.com-4529475.png">
+    </div>
+
+</div>
+
+</body>
+</html>
