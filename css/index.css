@@ -1,0 +1,743 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
+
+
+body{
+  margin:0 auto;
+  padding:0 auto;
+  position: relative;
+  height:fit-content;
+  font-size: 1.2rem;
+  font-family:  "Black Ops One","Audiowide";
+  overflow-x:hidden ;
+  background: rgb(255, 255, 255);
+
+}
+.head{
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  height: 40px;
+  margin: 0;
+  background-color:transparent;
+  display: flex;
+  font-family:  "Black Ops One","Audiowide";
+  justify-content: center;
+  align-items: center;
+  color:rgb(18, 223, 11);
+  z-index: 9;
+
+}
+a{
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  font-family:  "Black Ops One","Audiowide";
+  
+}
+
+#icon{
+  height: 30px;
+  width: 30px;
+padding: 0% 1% 0% 5%;
+
+}
+.head h1{
+  width: 30%;
+  text-align: left;
+}
+.head nav{
+  width:50%;
+  display:flex;
+}
+.head ul{
+  display: flex;
+  text-align:center;
+}
+.head  li{
+  margin-inline: 20px;
+  list-style: none;
+}
+.head button{
+  width:7rem;
+  height: 100%;
+  margin-right:5px ;
+  font-size: 1.3rem;
+  font-family: "Odibee Sans";
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 5px;
+  border: none;
+color: black;  
+}
+.head button:hover{
+  transform: translateY(-10px);
+  transition: all 1s;
+  background:linear-gradient(to left,rgb(18, 223, 11) ,rgb(243, 141, 7));
+}
+.head li :hover{
+  color: orange;
+  transition:all  0.8s;
+  border-bottom: 1px solid orange;
+}
+
+video{
+  top: 0;
+  z-index:-1;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.firstDiv{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top:-100px;
+  padding: 3vw 0vw 0vw 0vw;
+  width: 100%;
+  height:100vh;
+  /* background-image:url(/img/pexels-lucie-liz-3165335.jpg); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode: soft-light;
+  z-index: 5;
+}
+.firstDiv :first-child{
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  color:rgb(243, 141, 7);
+  padding: 15vw 0vw 0vw 3vw;
+  font-size: 70PX;
+  font-weight: 800;
+  height: fit-content;
+}
+
+.firstDiv :nth-child(2){
+  width:30%;
+  height:fit-content;
+  margin: 0;
+  text-align: center;
+  color:rgb(18, 223, 11);
+  padding: 0vw 0vw 0vw 8vw;
+  font-size: 20px;
+  font-weight: bolder;
+  border-width: 0px 0px 0px 20px ;
+  border-color: rgb(243, 141, 7);
+
+}
+.firstDiv :nth-child(3){
+    font-weight:bold;
+    font-size: 40px;
+    background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+    border-radius: 10px;
+    border: none;
+  color: black;  
+   width: 40%;
+   height:10%;
+    text-align: center;
+    margin: 2vw 0vw 0vw 7vw;
+}
+.firstDiv :nth-child(4){
+  width: 17%;
+  height: 30%;
+  float:right;
+  margin:-9% 15% 0% 0% ;
+}
+.secondDiv{
+  width: 100%;
+  height:100vh;
+  color:orange;
+  background-image: url(/img/gameback.jpg);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color:rgba(29, 13, 1, 0.859);
+}
+.secondDiv img{
+  width: 60%;
+  height: 50%;
+  float: left;
+  margin-top: -10%;
+  margin-left: -15%;
+}
+.thirdDiv{
+  width: 100%;
+  color:orange;
+  height: 80vh;
+  background-image: url(/img/tournament.jpg);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color:rgba(29, 13, 1, 0.859);
+}
+.thirdDiv img{
+  width: 50%;
+  height: 40%;
+  float: right;
+  margin-top: -20%;
+margin-right: -13%;
+}
+.fourthDiv{
+  width: 100%;
+  height: 100vh;
+  color:orange;
+  background-image: url(/img/gamer.jpg);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color:rgba(29, 13, 1, 0.859);
+}
+.fourthDiv img{
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-top: -15%;
+  margin-left: -10%;
+}
+
+.secondDiv :first-child, .thirdDiv :first-child, .fourthDiv :first-child{
+  width: 80%;
+  margin: 0 auto;
+  line-height: 180%;
+}
+.secondDiv :nth-child(3), .thirdDiv :nth-child(3), .fourthDiv :nth-child(3){
+font-size:1rem;
+}
+.secondDiv h1  {
+  font-size: 5rem;
+  font-weight: 500;
+  text-align: right;
+  padding: 50px 0px 40px 0px;
+}
+.thirdDiv h1{
+  font-size: 5rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 50px 0px 40px 0px;
+}
+.fourthDiv h1{
+  font-size: 5rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 50px 0px 40px 150px;
+}
+.secondDiv h2 {
+    background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+    border-radius: 10px;
+    border: none;
+  color: black;  
+   width: 20%;
+   height:10%;
+   margin: 2% 0% 0% 50%;
+   padding: 0% ;
+   font-size: 1.5rem;
+   text-align: center;
+  }
+  h2 :hover{
+    color:rgba(191, 218, 148, 0.998) ;
+  }
+.thirdDiv h2{
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 10px;
+  border: none;
+color: black;  
+ width: 20%;
+ height:10%;
+ font-size: 1.5rem;
+ text-align: center;
+}
+
+.fourthDiv h2{
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 10px;
+  border: none;
+color: black;  
+ width: 20%;
+ height:10%;
+ font-size: 1.5rem;
+ margin: 2% 0% 0% 30%;
+ text-align: center;
+}
+footer hr{
+  width: 95%;
+  margin:0 auto;
+  padding: 0 auto;
+}
+footer{
+  bottom:0;
+  width: 100%;
+  z-index: 7;
+  height: fit-content;
+  color: rgb(238, 146, 26);
+  /* background-image:url(/img/pexels-lucie-liz-3165335.jpg); */
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-blend-mode: soft-light;
+   background-color:rgb(0, 0, 0);
+}
+.sec1{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.sec1 > .subsec1{
+ 
+  width: 50%;
+ padding: 6% 0% 0% 3%;
+
+}
+.subsec1 section{
+  margin-bottom: 3%;
+  margin-left: 2rem;
+}
+.subsec1 section :hover{
+  color: rgb(153, 255, 0);
+}
+.subsec1 li{
+  margin-block:8%;
+}
+
+  .subsec2{
+  width: 100%;
+  place-content: center;
+  height: fit-content;
+  padding: 0% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
+  display: flex;
+}
+.sec2{
+  margin: 1% 0% 0% 0%;
+  
+}
+.subsec2 img{
+  width: 25px;
+  height: 25px;
+  filter:saturate(3);
+  text-align: center;
+  margin: 0% 9% 0% 0% ;
+  padding: 0px 0px 0px 30px ;
+}
+
+.subsec1 input{
+  margin: 7% 0% 0% 0%;
+  padding: 0% 0% 0% 5%;
+  border: none;
+  width: 50%;
+  font-family: inherit;
+  color: greenyellow;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: 0px;
+  border-bottom: 2px solid  rgb(243, 141, 7)  ;
+}
+.subsec1 button{
+  width:30%;
+  height: 7%;
+  font-family: inherit;
+  font-size: 1rem;
+  font-family: "Odibee Sans";
+  border: none;
+  border-radius: 5px;
+  margin: 5% 0% 0% 3%;
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+}
+.sec2 :first-child{
+  margin-left: 15%;
+
+}
+.sec2 :nth-child(2){
+  margin-left:5%;
+  width: 90%;
+}
+footer > p{
+  margin: 7% 0% 0% 0%;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  height: fit-content;
+}
+.t{
+  margin-inline: 20px;
+}
+.men{
+  display:none;
+}
+.navMenu{
+  display: none;
+}
+
+/* END OF PC STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUARIES */ 
+@media screen and (max-width:950px){
+  body{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: black;
+  
+  }
+  .men{
+           
+    display:inline-block;
+    margin-left:-29px;
+    padding-left: 0px;
+    padding-right:10px;
+    width: 10%;
+    height: auto;
+   
+}
+
+.menu{
+width: 25px;
+height: 5px;
+border-radius: 30px;
+margin-block:3px;
+    background-color:rgb(18, 223, 11);
+}
+  .head{
+    width: 100%;
+    font-size: 100%;
+    place-content: center;
+    height:10px;
+  }
+  #icon{
+    width: 30px;
+    height: 30px;
+    margin: 0% 0% 0% 2%;
+
+  }
+  .head h1{
+    text-align: left;
+    width: 75%;
+    height: auto;
+    font-size: 100%;
+
+  }
+  .head ul{
+    display: none;
+  }
+  .head button{
+    display: none;
+  }
+  .firstDiv{
+    height:110vh;
+    width: 100%;
+    padding: 0% 0% 0% 0% ;
+   
+  }
+  .firstDiv :first-child{
+    font-size: 200%;
+    width: 100%;
+    position: absolute;
+    top: 45vh;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+  .firstDiv :nth-child(2){
+    font-size: 100%;
+    width: 100%;
+    position: absolute;
+    top: 55vh;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .firstDiv button{
+  display: none;
+
+  }
+  
+  .firstDiv :nth-child(4){
+   display: none;
+  }
+  .secondDiv{
+    width: 100%;
+    justify-content: center;
+    place-content: center;
+    height: auto;
+    padding: 20px 0px 50px 0px ;
+  }
+  .secondDiv h1{
+    font-size: 200%;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+  }
+  .secondDiv img{
+    display: none;
+  }
+  .secondDiv article{
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+  .secondDiv h2{
+    width: 60%;
+    font-size: 100%;
+    text-align: center;
+    margin: 5% 0% 0% 20% ;
+  }
+  
+  .thirdDiv{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    place-content: center;
+    padding: 20px 0px 50px 0px ;
+  }
+  .thirdDiv h1{
+    font-size: 200%;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+  }
+  .thirdDiv img{
+    display: none;
+  }
+  .thirdDiv article{
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+  .thirdDiv h2{
+    width: 60%;
+    text-align: center;
+    font-size: 100%;
+    margin: 5% 0% 0% 20% ;
+  }
+  .fourthDiv{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 50px 0px ;
+    justify-content: center;
+    place-content: center;
+  }
+  .fourthDiv h1{
+    font-size: 200%;
+    font-weight: 900;
+    width: 90%;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+    text-align: center;
+  }
+  .fourthDiv img{
+    display: none;
+  }
+  .fourthDiv article{
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+  .fourthDiv h2{
+    width: 60%;
+    text-align: center;
+    font-size: 100%;
+    margin: 5% 0% 0% 20% ;
+  }
+  footer{
+    font-size: 100%;
+  }
+  .sec1{
+    display: block;
+
+    width: 100%;
+    margin:0px 0px 0px 0px ;
+    font-size: 80%;
+  
+  }
+  .subsec1{
+    font-size: 80%;
+    width: 100%;
+
+    margin:0px 0px 0px 0px ;
+    padding:0px 0px 0px 0px ;
+  }
+  .subsec1 h3{
+    width: 170%;
+  
+  }
+  subsec1 li{
+    width: 200%;
+
+  }
+  .subsect1 section{
+    width: 170%;
+
+  }
+  .subsec1 input{
+    width: 100%;
+  }
+  .subsec1 button{
+    width: 60%;
+  }
+  .subsec2{
+    width:90%;
+    padding: 20px 0px 20px 0px ;
+
+  }
+  .subsec2 img{
+    margin-inline: 2px;
+    width: 30px;
+    height: 30px;
+  }
+  footer p{
+    font-size: 10px;
+    }
+    .cover{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.794);
+      position: fixed;
+      display: none;
+      z-index: 3;
+      top: 0 ;
+      right: 0;
+    }
+  .navMenu{
+    width:70%;
+    height: 100%;
+    right: -70%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  display: block;
+  top: 0;
+  z-index: 6;
+  background-color: rgb(5, 5, 5);
+  color: orange;
+
+  }
+  .navMenu nav{
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 10% 0% 0% 0%;
+   
+  }
+  .navMenu ul{
+    list-style-type:none;
+    width: 100%;
+    height: 40%;
+ 
+    text-align: left;
+    margin: 0% 0% 0% 0%;
+    padding: 0 auto;
+  }
+  .navMenu li{
+    padding: 0px 0px 0px -10px;
+    margin:15px 0px 0px 0px ;
+    height: 10%;
+    width: fit-content;
+    text-align: left;
+ 
+    text-align: center;
+  }
+  .navMenu p{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    width: 7%;
+    text-align: center;
+    margin: 0% 0% 0% 85% ;
+
+  }
+  .navMenu button{
+  width: 28%;
+  margin:10% 0% 0% 5% ;
+  height: 7%;
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 5px;
+  border: none;
+  color: black; 
+  font-size:10px;
+  font-weight: bold;
+  }
+
+  .navMenu h1{
+    font-size: 120%;
+    width: 100%;
+
+  }
+
+
+}

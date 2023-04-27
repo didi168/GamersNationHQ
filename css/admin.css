@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
+
+
+body{
+  margin:0 auto;
+  padding:0 auto;
+  position: relative;
+  height:fit-content;
+  font-size: 1.2rem;
+  font-family:  "Black Ops One","Audiowide";
+  overflow-x:hidden ;
+  background: rgb(255, 255, 255);
+
+}
+.head{
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  height: 40px;
+  margin: 0;
+  background-color:transparent;
+  display: flex;
+  font-family:  "Black Ops One","Audiowide";
+  justify-content: center;
+  align-items: center;
+  color:rgb(18, 223, 11);
+  z-index: 9;
+
+}
+a{
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  font-family:  "Black Ops One","Audiowide";
+  
+}
+
+#icon{
+  height: 30px;
+  width: 30px;
+padding: 0% 1% 0% 5%;
+
+}
+.head h1{
+  width: 30%;
+  text-align: left;
+}
+.head nav{
+  width:50%;
+  display:flex;
+}
+.head ul{
+  display: flex;
+  text-align:center;
+}
+.head  li{
+  margin-inline: 20px;
+  list-style: none;
+}
+.head button{
+  width:7rem;
+  height: 100%;
+  margin-right:5px ;
+  font-size: 1.3rem;
+  font-family: "Odibee Sans";
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 5px;
+  border: none;
+color: black;  
+}
+.head button:hover{
+  transform: translateY(-10px);
+  transition: all 1s;
+  background:linear-gradient(to left,rgb(18, 223, 11) ,rgb(243, 141, 7));
+}
+.head li :hover{
+  color: orange;
+  transition:all  0.8s;
+  border-bottom: 1px solid orange;
+}
+.firstdiv{
+  background-color: rgba(0, 0, 0, 0.741);
+  margin-top:-100px;
+  padding: 3vw 0vw 0vw 0vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  z-index: 5;
+}
+.firstdiv :first-child{
+      width: 100%;
+      z-index: -1;
+      height: 30%;
+      object-fit:cover;
+}

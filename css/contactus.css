@@ -1,0 +1,455 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
+
+body{
+  margin:0 auto;
+  padding:0 auto;
+  position: relative;
+  font-family:  "Black Ops One","Audiowide";
+  height:fit-content;
+  font-size: 1.3rem;
+  overflow-x:hidden ;
+  background: rgb(255, 255, 255);
+
+}
+.head{
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+  height: 40px;
+  margin: 10px 0px 0px 0px ;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgb(18, 223, 11);
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  font-family:  "Black Ops One","Audiowide";
+
+}
+a{
+  color: inherit;
+  font-size: inherit;
+  font-family: "Odibee Sans";
+  text-decoration: none;
+  font-family:  "Black Ops One","Audiowide";
+  
+}
+
+#icon{
+  height: 30px;
+  width: 30px;
+  margin:0px 0px 0px 10px;
+
+}
+.head h1{
+  width: 30%;
+  text-align: center;
+}
+.head nav{
+  width:50%;
+  display:flex;
+}
+.head ul{
+  display: flex;
+  text-align:center;
+}
+.head  li{
+  margin-inline: 20px;
+  list-style: none;
+}
+.head button{
+  width:7rem;
+  height: 100%;
+  font-size: 1.3rem;
+  font-family: "Odibee Sans";
+  margin-right:5px ;
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 5px;
+  border: none;
+color: black;  
+}
+.head button:hover{
+  transform: translateY(-10px);
+  transition: 1s;
+  background:linear-gradient(to left,rgb(18, 223, 11) ,rgb(243, 141, 7));
+}
+.head li :hover{
+  color: orange;
+  transition: 0.8s;
+  border-bottom: 1px solid orange;
+}
+.firstDiv{
+  width: 100%;
+  height: 120vh;
+  background-image: url(/img/cyber\ punk.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-color:rgba(29, 13, 1, 0.859);
+  margin: 0px 0px 0px 0px ;
+  padding: 0px 0px 0px 0px ;
+  
+}
+.firstDiv :first-child{
+  color:rgb(243, 141, 7);
+  margin: 0px 0px 0px 0px ;
+  padding: 100px 0px 0px 150px ;
+  font-size:7rem;
+
+}
+.firstDiv :nth-child(2){
+  width: 70%;
+  margin: 0 auto;
+  color: orange;
+ padding: 10px 0px 0px 0px ;
+ line-height: 180%;
+}
+
+
+footer hr{
+  width: 95%;
+  margin:0 auto;
+  padding: 0 auto;
+}
+footer{
+  bottom:0;
+  width: 100%;
+  z-index: 7;
+  height: fit-content;
+  color: rgb(238, 146, 26);
+  /* background-image:url(/img/pexels-lucie-liz-3165335.jpg); */
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-blend-mode: soft-light;
+   background-color:rgb(0, 0, 0);
+}
+.sec1{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.sec1 > .subsec1{
+ 
+  width: 50%;
+ padding: 6% 0% 0% 3%;
+
+}
+.subsec1 section{
+  margin-bottom: 3%;
+  margin-left: 2rem;
+}
+
+  .subsec2{
+  width: 100%;
+  place-content: center;
+  height: fit-content;
+  padding: 0% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
+  display: flex;
+}
+.sec2{
+  margin: 1% 0% 0% 0%;
+  
+}
+.subsec2 img{
+  width: 25px;
+  height: 25px;
+  filter:saturate(3);
+  text-align: center;
+  margin: 0% 9% 0% 0% ;
+  padding: 0px 0px 0px 30px ;
+}
+
+.subsec1 input{
+  margin: 7% 0% 0% 0%;
+  padding: 0% 0% 0% 5%;
+  border: none;
+  width: 50%;
+  font-family: inherit;
+  color: greenyellow;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: 0px;
+  border-bottom: 2px solid  rgb(243, 141, 7)  ;
+}
+.subsec1 button{
+  width:50%;
+  height: 7%;
+  font-family: inherit;
+  font-size: 1rem;
+  font-family: "Odibee Sans";
+  border: none;
+  border-radius: 5px;
+  margin: 5% 0% 0% 0%;
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+}
+.subsec1 section :hover{
+  color: greenyellow;
+}
+.sec2 :first-child{
+  margin-left: 15%;
+
+}
+.sec2 :nth-child(2){
+  margin-left:5%;
+  width: 90%;
+}
+footer > p{
+  margin: 7% 0% 0% 0%;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  height: fit-content;
+}
+.t{
+  margin-inline: 20px;
+}
+.men{
+  display:none;
+}
+.navMenu{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUARIES */ 
+@media screen and (max-width:950px){
+  body{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 100%;
+    background-color: black;
+  
+  }
+  .men{
+           
+    display:inline-block;
+    margin-left:0px;
+    padding-left: 0px;
+    padding-right:10px;
+    width: 10%;
+    height: auto;
+   
+}
+
+.menu{
+width: 25px;
+height: 5px;
+border-radius: 30px;
+margin-block:3px;
+    background-color:rgb(18, 223, 11);
+}
+  .head{
+    width: 100%;
+    font-size: 100%;
+    place-content: center;
+    height:10px;
+    z-index: 1;
+  }
+  #icon{
+    width: 30px;
+    height: 30px;
+      margin: 0px 10px 0px 30px;
+
+
+  }
+  .head h1{
+    text-align: left;
+    width: 70%;
+    height: auto;
+    font-size: 100%;
+
+  }
+  .head ul{
+    display: none;
+  }
+
+  .head button{
+    display: none;
+  }
+  .firstDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    padding: 20% 0% 0% 0%;
+    margin:0px 0px 0px 0px ;
+  }
+  .firstDiv :first-child{
+    font-size: 5rem;
+    margin:0px 0px 0px 0px ;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 0px 0px ;
+    display: block;
+  }
+  .firstDiv :nth-child(2){
+    font-size: 80%;
+    text-align: center;
+    width:80% ;
+    margin: 20px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+  }
+  .sec1{
+    display: block;
+
+    width: 100%;
+    margin:0px 0px 0px 0px ;
+    font-size: 80%;
+  
+  }
+  .subsec1{
+    width: 100%;
+    font-size: 80%;
+    margin:0px 0px 0px 0px ;
+    padding:0px 0px 0px 0px ;
+  }
+  .subsec1 h3{
+    width: 170%;
+  
+  }
+  subsec1 li{
+    width: 200%;
+
+  }
+  .subsect1 section{
+    width: 170%;
+
+  }
+  .subsec1 input{
+    width: 100%;
+  }
+  .subsec1 button{
+    width: 60%;
+  }
+  .subsec2{
+    width:90%;
+    padding: 20px 0px 20px 0px ;
+
+  }
+  .subsec2 img{
+    margin-inline: 2px;
+    width: 30px;
+    height: 30px;
+  }
+  footer p{
+    font-size: 10px;
+    }
+    .cover{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.794);
+      position: fixed;
+      display: none;
+      z-index: 5;
+      top: 0 ;
+      right: 0;
+    }
+  .navMenu{
+    width:70%;
+    height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  display: block;
+  top: 0;
+  right: -70%;
+  z-index: 9;
+  background-color: rgb(5, 5, 5);
+  color: orange;
+
+  }
+  .navMenu nav{
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 10% 0% 0% 0%;
+   
+  }
+  .navMenu ul{
+    list-style-type:none;
+    width: 100%;
+    height: 40%;
+ 
+    text-align: left;
+    margin: 0% 0% 0% 0%;
+    padding: 0 auto;
+  }
+  .navMenu li{
+    padding: 0px 0px 0px -10px;
+    margin:15px 0px 0px 0px ;
+    height: 10%;
+    width: fit-content;
+    text-align: left;
+ 
+    text-align: center;
+  }
+  .navMenu p{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    width: 7%;
+    text-align: center;
+    margin: 0% 0% 0% 85% ;
+
+  }
+  .navMenu button{
+  width: 28%;
+  margin:10% 0% 0% 5% ;
+  height: 7%;
+  background:linear-gradient(to right,rgb(18, 223, 11) ,rgb(243, 141, 7));
+  border-radius: 5px;
+  border: none;
+  color: black; 
+  font-size:10px;
+  font-weight: bold;
+  }
+
+  .navMenu h1{
+    font-size: 120%;
+    width:100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px ;
+    height: 20px;
+  }
+}
